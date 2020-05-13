@@ -1,0 +1,10 @@
+fpga.wait(15)
+fpga.enableSample
+fpga.setOctaves(<00001111>)
+fpga.freeze
+fpga.unfreeze
+fpga.wait(15)
+fpga.setOctaves(<11111111>)
+fpga.freeze
+fpga.unfreeze
+fpga.wait(15)
