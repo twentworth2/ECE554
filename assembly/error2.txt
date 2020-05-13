@@ -1,0 +1,1 @@
+error on line 7, error located in opcode

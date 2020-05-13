@@ -1,0 +1,21 @@
+LD, R1, R2 
+LDR, R1, [R2]
+LL, R1, #1 
+LH, R1, #2
+ST, R1, [R2]
+BRE
+BRG
+CMP, R1, #4
+CMPR, R1, R2
+ADD, R1, #5
+ADDR, R1, R1, R2
+SUB, R1, #6
+SUBR, R1, R1, R2
+SHL, R1, #7 
+SHR, R1, #8
+AND, R1, R1, R2
+NOT, R1
+OR, R1, R1, R2
+XOR, R1, R1, R2
+NOOP
+HLT
